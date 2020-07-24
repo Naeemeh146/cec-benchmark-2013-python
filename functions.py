@@ -506,7 +506,7 @@ class CEC_functions:
             Y = self.cf_cal(X, delta, bias, np.array(fit)) + 1400
 
         return Y
-
+# example of testing
 if __name__ == "__main__":
     f_num = 9
     cec_functions = CEC_functions(30)
