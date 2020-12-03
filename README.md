@@ -1,4 +1,4 @@
-# CEC2013python
+# cec 2013 benchmark python
 for testing metaheuristic algorithm which is specific
 for continuous search spaces, like Particle Swarm optimizations, Differential evolutions, etc,
 one can be sure about the performances of algorithm by testing them in this benchmark. 
