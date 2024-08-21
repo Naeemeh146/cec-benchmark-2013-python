@@ -5,7 +5,7 @@
 ## Usage: cec_functions(X, fnum) , X: 1*30 Array, fnum: Function Number
 ##################################################
 ## Author: Naeemeh Yadollahpour
-## Email:  naeemeh@yorku.ca
+## Email:  naimayp68@gmail.com
 ## Please refer to our paper in your work:
 ## ...
 ##################################################
@@ -293,7 +293,7 @@ class CEC_functions:
             for i in range(d):
                 X_hat.append( 2 * np.sign(X_star[i]) * X_shift[i] + mu_0 )
 
-            MU_0 = np.ones(30) * mu_0
+            MU_0 = np.ones(d) * mu_0
             Z    = X_hat - MU_0
             if rf:
                 Z = self.M1 @ Z
